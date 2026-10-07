@@ -1,6 +1,10 @@
-# BloxLite — one-click Roblox FPS tweak for low-end Windows PCs
+# BloxLite — a dead-simple fps unlocker for any demanding Windows game
 
-If Roblox stutters on your machine, bloxlite is a stripped-down booster that frees RAM and shuts down idle background noise a second before the game launches, then gets out of the way. It runs on Windows 10 and Windows 11, costs nothing, needs no account, and leaves no watermark on anything.
+BloxLite is a lightweight fps unlocker that frees RAM and parks idle background processes a second before you launch, so a demanding Windows game opens into clean headroom instead of fighting other apps for scraps. There are no sliders, no profiles, no account, and no watermark — it runs on Windows 10 and Windows 11, costs nothing, and gets out of the way the moment it is done.
+
+## Why use this as an fps unlocker?
+
+Most fps unlocker tools bury you in toggles and config files; this one is a single Boost button. It does not patch the game, does not run in the background after launch, and leaves nothing behind when you delete the folder — ideal if you just want smoother frames in Roblox or any demanding Windows title without reading a manual.
 
 ## Get it
 
